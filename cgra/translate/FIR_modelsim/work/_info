@@ -1,0 +1,736 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/kevin/intelFPGA/20.1/modelsim_ase/bin
+vAdderRTL__c0679c011d3d3150
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 DXx4 work 32 CGRARTL__1d39f2e940519f92_v_unit 0 22 4l?acPM1g9[K`ge2m^9j:2
+Z2 !s110 1671453285
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 ORdE8a:BM7=ccTn39=8H90
+IFUoMP<cf@Ea5XF_i7`6Sj3
+Z4 !s105 CGRARTL__1d39f2e940519f92_v_unit
+S1
+Z5 d/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim
+Z6 w1671443801
+Z7 8/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/CGRARTL__1d39f2e940519f92.v
+Z8 F/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/CGRARTL__1d39f2e940519f92.v
+!i122 38
+L0 1175 208
+Z9 OV;L;2020.1;71
+31
+Z10 !s108 1671453285.000000
+Z11 !s107 /home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/CGRARTL__1d39f2e940519f92.v|
+Z12 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/CGRARTL__1d39f2e940519f92.v|
+!i113 1
+Z13 o-work work -sv
+Z14 tCvgOpt 0
+n@adder@r@t@l__c0679c011d3d3150
+vBranchRTL__c0679c011d3d3150
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 TDCHFEC4LVRJLzXOWI6HW1
+IF`c[fQ`lZGZjgDF6<6GAS3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2038 207
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@branch@r@t@l__c0679c011d3d3150
+vCGRARTL__1d39f2e940519f92
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 _E8aVXknQbVnzISlUEGHb1
+IRRAS<ZZ?Ue:a=9_PfBfHO2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 3504 999
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@c@g@r@a@r@t@l__1d39f2e940519f92
+XCGRARTL__1d39f2e940519f92_v_unit
+R0
+R2
+V4l?acPM1g9[K`ge2m^9j:2
+r1
+!s85 0
+!i10b 1
+!s100 2`U[@F>>WQYHz<i0@i?;J2
+I4l?acPM1g9[K`ge2m^9j:2
+!i103 1
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 8 0
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@c@g@r@a@r@t@l__1d39f2e940519f92_v_unit
+vChannelRTL__DataType_CGRAData_32_1_1__latency_1
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 ??`B8V^h3]Eo3fEe`IcC`2
+Im[kliQK1VD9AjUU_laS]G2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 516 98
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@channel@r@t@l__@data@type_@c@g@r@a@data_32_1_1__latency_1
+vCompRTL__c0679c011d3d3150
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 CcOK_K15b2_]2WT`H6_cK3
+IjRV54RniB=A>K<@KVQK0a3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 1621 221
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@comp@r@t@l__c0679c011d3d3150
+vConstQueueRTL__2f4560623c67a554
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 V_CT@P1K07D0CaR8BfVQB1
+IdC7R4a[0]IL5j2JK_e<oi3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 620 53
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@const@queue@r@t@l__2f4560623c67a554
+vCrossbarRTL__20918f721d5f331c
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 2;?GFEJ=P3]L=HKA8:X262
+IB<C0YINd<MnONfX;WaM`P0
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 679 126
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@crossbar@r@t@l__20918f721d5f331c
+vCtrlMemRTL__d6ff73c3edef45ec
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 ]0P9dO>JIg=eGa49bRJQ82
+IZ30^Lb@RK?<=j4Q]o^VAo2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 859 100
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@ctrl@mem@r@t@l__d6ff73c3edef45ec
+vDataMemRTL__8478401e424d7769
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 TNeYHA9Kn@=]F2X]0@N>k2
+ILF:RoSg2iIEMFgQD17P_B0
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 83 130
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@data@mem@r@t@l__8478401e424d7769
+vFlexibleFuRTL__c6efb997f0b7c76c
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 jmkYXLD1:]JMlESA12CN80
+IiNIF6kkWM97m5>9Q^Me0o3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2251 447
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@flexible@fu@r@t@l__c6efb997f0b7c76c
+vMemUnitRTL__c0679c011d3d3150
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 L?DP@@fU5VRB8j[d64<e@0
+IgFSdWIZR`gCL_oJPj6Zil2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 965 204
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@mem@unit@r@t@l__c0679c011d3d3150
+vMulRTL__c0679c011d3d3150
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 oNLEJIm[z2=Ti:@U2Xmcj2
+I92gmXWgcWcE;ZD];:UHF:3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 1848 184
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@mul@r@t@l__c0679c011d3d3150
+vNormalQueueCtrlRTL__num_entries_2
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 liQ[<z88L;0z>8AZgI@3^3
+IR8i8EMEbOen4NkSM4c1UZ2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 218 101
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@normal@queue@ctrl@r@t@l__num_entries_2
+vNormalQueueDpathRTL__EntryType_CGRAData_1_1__num_entries_2
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 MW49J8zN?PPbf^I?j<S=K1
+IaU@SDa`15kU_ac<J=16Q53
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2751 46
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@normal@queue@dpath@r@t@l__@entry@type_@c@g@r@a@data_1_1__num_entries_2
+vNormalQueueDpathRTL__EntryType_CGRAData_32_1_1__num_entries_2
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 165oaCL^b1hKGoG7XH18`0
+I?_6gO]F>:=6HZ^]L9Y^jg2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 372 46
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@normal@queue@dpath@r@t@l__@entry@type_@c@g@r@a@data_32_1_1__num_entries_2
+vNormalQueueRTL__EntryType_CGRAData_1_1__num_entries_2
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 G5=zZJADoFmLTQ@1eflW[1
+IOl[mYoQiWI1FdLa9UhNPW0
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2802 88
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@normal@queue@r@t@l__@entry@type_@c@g@r@a@data_1_1__num_entries_2
+vNormalQueueRTL__EntryType_CGRAData_32_1_1__num_entries_2
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 KZ[EJ32h09`:WdbN@96;K0
+ILTn2l;Y;XI^6[[3hcnUod3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 423 88
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@normal@queue@r@t@l__@entry@type_@c@g@r@a@data_32_1_1__num_entries_2
+vPhiRTL__c0679c011d3d3150
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 aT[N;6YW<a`kSOGcj:gPD2
+IABUK:]EP8UgA8:A39KG593
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 1389 226
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@phi@r@t@l__c0679c011d3d3150
+vRegisterFile__3d7444e8c9f8d91f
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 BTYcFf3949Tl3e^a_f9PZ2
+I3J7V5XlLf0k]2ib_`UofG3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 35 42
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@register@file__3d7444e8c9f8d91f
+vRegisterFile__a5b09b174e89778c
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 ?kKIQ1KgScYl_oMN8F8293
+I^9Pdj?AHkkX9K<`bfhW_23
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 811 42
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@register@file__a5b09b174e89778c
+vRegisterFile__b2651f5e70154f41
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 je<bH>7Z<d<m`h??E:<hX1
+If4BCKC3e:2ggkPXJSBT@^1
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2704 42
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@register@file__b2651f5e70154f41
+vRegisterFile__e355018d318c7c45
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 DB1[3?iL]TW1@OZKYImdJ1
+I[dOhlQWcVG]<M:g9Fg]1=3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 325 42
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@register@file__e355018d318c7c45
+vRegisterRTL__DataType_CGRAData_1_1__latency_1
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 af02h<o7=R8nQegJFFh_z0
+I;Cl1UN<]^V_>maiWX><1Y2
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2895 77
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@register@r@t@l__@data@type_@c@g@r@a@data_1_1__latency_1
+vtestbench_fir
+R0
+DXx4 work 20 testbench_fir_v_unit 0 22 1inR3IebMdRjUbMP84nkK1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 M5FTFOAVk:9UaIbP0673@2
+IIRII0K4P0AkV;;66X=]B32
+!s105 testbench_fir_v_unit
+S1
+R5
+Z15 w1671453278
+Z16 8/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/testbench_fir.v
+Z17 F/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/testbench_fir.v
+!i122 39
+L0 27 120
+R9
+31
+R10
+!s107 /home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/testbench_fir.v|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/testbench_fir.v|
+!i113 1
+R13
+R14
+Xtestbench_fir_v_unit
+R0
+R2
+V1inR3IebMdRjUbMP84nkK1
+r1
+!s85 0
+!i10b 1
+!s100 PRE[5OEe4d6LYjAGJZVO72
+I1inR3IebMdRjUbMP84nkK1
+!i103 1
+S1
+R5
+R15
+R16
+R17
+!i122 39
+L0 1 0
+R9
+31
+R10
+Z19 !s107 /home/kevin/Desktop/fork/OpenCGRA/cgra/translate/FIR_modelsim/verilog_files/testbench_fir.v|
+R18
+!i113 1
+R13
+R14
+vTileRTL__e8bd2c427966816c
+R0
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 O6^Wk4H^<MOBO3`m5gnJ[3
+IEgm<b@Y6WSh7N[W6:3gTP3
+R4
+S1
+R5
+R6
+R7
+R8
+!i122 38
+L0 2978 520
+R9
+31
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n@tile@r@t@l__e8bd2c427966816c
