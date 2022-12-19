@@ -86,25 +86,25 @@ module testbench_fir;
 
     // //circle 1:
     // dut.tile__4.ctrl_mem.reg_file.regs[1]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd4, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__5.ctrl_mem.reg_file.regs[1]   = {6'h19, 1'd0, {3'd3, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd5, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__6.ctrl_mem.reg_file.regs[1]   = {6'h19, 1'd0, {3'd1, 3'd2, 3'd0, 3'd0}, {3'd5, 3'd0, 3'd0, 3'd0, 3'd5, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__9.ctrl_mem.reg_file.regs[1]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd4, 3'd2, 3'd0}, 6'd0};
-    // dut.tile__10.ctrl_mem.reg_file.regs[1]  = {6'h20, 1'd1, {3'd1, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd5, 3'd0, 3'd2, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__5.ctrl_mem.reg_file.regs[1]   = {6'h19, 1'd0, {3'd0, 3'd0, 3'd0, 3'd3}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd5, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__6.ctrl_mem.reg_file.regs[1]   = {6'h19, 1'd0, {3'd0, 3'd0, 3'd2, 3'd1}, {3'd0, 3'd0, 3'd0, 3'd5, 3'd0, 3'd0, 3'd0, 3'd5}, 6'd0};
+    // dut.tile__9.ctrl_mem.reg_file.regs[1]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd2, 3'd4, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__10.ctrl_mem.reg_file.regs[1]  = {6'h20, 1'd1, {3'd0, 3'd0, 3'd0, 3'd1}, {3'd0, 3'd0, 3'd0, 3'd2, 3'd0, 3'd5, 3'd0, 3'd0}, 6'd0};
 
     // //circle 2:
-    // dut.tile__4.ctrl_mem.reg_file.regs[2]   = {6'h0c, 1'd0, {3'd1, 3'd2, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd5, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__5.ctrl_mem.reg_file.regs[2]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd3, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__6.ctrl_mem.reg_file.regs[2]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd1, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__8.ctrl_mem.reg_file.regs[2]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd4, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__9.ctrl_mem.reg_file.regs[2]   = {6'h19, 1'd0, {3'd3, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd5, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__10.ctrl_mem.reg_file.regs[2]  = {6'h21, 1'd0, {3'd1, 3'd2, 3'd0, 3'd0}, {3'd0, 3'd5, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__4.ctrl_mem.reg_file.regs[2]   = {6'h0c, 1'd0, {3'd0, 3'd0, 3'd2, 3'd1}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd5, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__5.ctrl_mem.reg_file.regs[2]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd3, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__6.ctrl_mem.reg_file.regs[2]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd1, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__8.ctrl_mem.reg_file.regs[2]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd4, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__9.ctrl_mem.reg_file.regs[2]   = {6'h19, 1'd0, {3'd0, 3'd0, 3'd0, 3'd3}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd5, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__10.ctrl_mem.reg_file.regs[2]  = {6'h21, 1'd0, {3'd0, 3'd0, 3'd2, 3'd1}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd5, 3'd0}, 6'd0};
 
     // //circle 3:
-    // dut.tile__4.ctrl_mem.reg_file.regs[3]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd1, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__5.ctrl_mem.reg_file.regs[3]   = {6'h07, 1'd0, {3'd1, 3'd2, 3'd0, 3'd0}, {3'd5, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__6.ctrl_mem.reg_file.regs[3]   = {6'h10, 1'd0, {3'd2, 3'd0, 3'd0, 3'd0}, {3'd5, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'b000010};
-    // dut.tile__8.ctrl_mem.reg_file.regs[3]   = {6'h0c, 1'd0, {3'd1, 3'd2, 3'd0, 3'd0}, {3'd0, 3'd5, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
-    // dut.tile__9.ctrl_mem.reg_file.regs[3]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd2, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__4.ctrl_mem.reg_file.regs[3]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd1, 3'd0, 3'd0, 3'd0}, 6'd0};
+    // dut.tile__5.ctrl_mem.reg_file.regs[3]   = {6'h07, 1'd0, {3'd0, 3'd0, 3'd2, 3'd1}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd5}, 6'd0};
+    // dut.tile__6.ctrl_mem.reg_file.regs[3]   = {6'h10, 1'd0, {3'd0, 3'd0, 3'd0, 3'd2}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd5}, 6'b000010};
+    // dut.tile__8.ctrl_mem.reg_file.regs[3]   = {6'h0c, 1'd0, {3'd0, 3'd0, 3'd2, 3'd1}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd5, 3'd0}, 6'd0};
+    // dut.tile__9.ctrl_mem.reg_file.regs[3]   = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd2, 3'd0, 3'd0, 3'd0, 3'd0}, 6'd0};
     // dut.tile__10.ctrl_mem.reg_file.regs[3]  = {6'h01, 1'd0, {3'd0, 3'd0, 3'd0, 3'd0}, {3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0, 3'd0}, 6'b010000};
 
     dut.tile__0.ctrl_mem.reg_file__raddr[0] = 3'd7;
