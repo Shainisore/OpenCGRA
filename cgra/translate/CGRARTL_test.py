@@ -102,24 +102,25 @@ def test_cgra_universal():
   num_tile_outports = 4
   num_xbar_inports  = 6
   num_xbar_outports = 8
-  ctrl_mem_size     = 6
-  width             = 2
-  height            = 2
+  ctrl_mem_size     = 8
+  width             = 4
+  height            = 4
   RouteType         = mk_bits( clog2( num_xbar_inports + 1 ) )
   AddrType          = mk_bits( clog2( ctrl_mem_size ) )
   num_tiles         = width * height
-  data_mem_size     = 8
+  data_mem_size     = 100
   num_fu_in         = 4
   DUT               = CGRARTL
   FunctionUnit      = FlexibleFuRTL
-  FuList            = [ SeqMulAdderRTL, MemUnitRTL ]#AdderRTL, MulRTL, LogicRTL, ShifterRTL, PhiRTL, CompRTL, BranchRTL, MemUnitRTL ]
+  FuList            = [ AdderRTL, PhiRTL, MemUnitRTL, CompRTL, MulRTL, BranchRTL ]
   DataType          = mk_data( 32, 1 )
   PredicateType     = mk_predicate( 1, 1 )
 #  FuList           = [ SeqMulAdderRTL, AdderRTL, MulRTL, LogicRTL, ShifterRTL, PhiRTL, CompRTL, BranchRTL, MemUnitRTL ]
 #  DataType         = mk_data( 16, 1 )
   CtrlType          = mk_ctrl( num_fu_in, num_xbar_inports, num_xbar_outports )
   FuInType          = mk_bits( clog2( num_fu_in + 1 ) )
-  pickRegister      = [ FuInType( x+1 ) for x in range( num_fu_in ) ]
+ # pickRegister      = [ FuInType( x+1 ) for x in range( num_fu_in ) ]
+  pickRegister      = [ FuInType( 0 ) for x in range( num_fu_in ) ]
   src_opt           = [ [ CtrlType( OPT_INC, b1( 0 ), pickRegister, [
                           RouteType(4), RouteType(3), RouteType(2), RouteType(1),
                           RouteType(5), RouteType(5), RouteType(5), RouteType(5)] ),
@@ -139,8 +140,9 @@ def test_cgra_universal():
                           RouteType(4),RouteType(3), RouteType(2), RouteType(1),
                           RouteType(5), RouteType(5), RouteType(5), RouteType(5)] ) ]
                           for _ in range( num_tiles ) ]
-  ctrl_waddr   = [ [ AddrType( 0 ), AddrType( 1 ), AddrType( 2 ), AddrType( 3 ),
-                     AddrType( 4 ), AddrType( 5 ) ] for _ in range( num_tiles ) ]
+ # ctrl_waddr   = [ [ AddrType( 0 ), AddrType( 1 ), AddrType( 2 ), AddrType( 3 ),
+ #                    AddrType( 4 ), AddrType( 5 ) ] for _ in range( num_tiles ) ]
+  ctrl_waddr = [ [ AddrType( i ) for i in range( 4 ) ] for _ in range( num_tiles ) ]
   th = TestHarness( DUT, FunctionUnit, FuList, DataType, PredicateType,
                     CtrlType, width, height, ctrl_mem_size, data_mem_size,
                     src_opt, ctrl_waddr )
