@@ -1,3 +1,6 @@
+Showcase
+--------------------------------------------------------
+```
 // target FIR kernel
 for (i = 0; i < NTAPS; ++i) {
     sum += input[i] * coefficient[i];
