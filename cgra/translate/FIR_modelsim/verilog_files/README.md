@@ -1,4 +1,4 @@
-Showcase
+testbench_fir
 --------------------------------------------------------
 ```
 // target FIR kernel
